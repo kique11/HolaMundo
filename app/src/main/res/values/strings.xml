@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hola Mundo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lb_btn_navegar">Navegar</string>
+    <string name="title_activity_secondary">Secondary Activity</string>
+    <string name="title_activity_con_resultado_activitiy">ConResultadoActivitiy</string>
+
+</resources>
