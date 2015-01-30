@@ -7,5 +7,7 @@
     <string name="lb_btn_navegar">Navegar</string>
     <string name="title_activity_secondary">Secondary Activity</string>
     <string name="title_activity_con_resultado_activitiy">ConResultadoActivitiy</string>
+    <string name="title_activity_implicita">ImplicitaActivity</string>
+    <string name="title_activity_alternativa_implicita">AlternativaImplicitaActivity</string>
 
 </resources>

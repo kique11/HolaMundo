@@ -32,6 +32,15 @@ public class MainActivity extends ActionBarActivity {
                startActivity(intent);//Es un método de la clase externa. MainActivity.this.startActivity()
             }
         });
+
+        View implicita = findViewById(R.id.btImplicita);
+        implicita.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("com.compostela.curso.holamundo.IMPLICITA");
+                startActivity(intent);
+            }
+        });
     }
 
 

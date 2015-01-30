@@ -24,6 +24,23 @@
             android:name=".ConResultadoActivitiy"
             android:label="@string/title_activity_con_resultado_activitiy" >
         </activity>
+        <activity
+            android:name=".ImplicitaActivity"
+            android:label="@string/title_activity_implicita" >
+            <intent-filter>
+                <action android:name="com.compostela.curso.holamundo.IMPLICITA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AlternativaImplicitaActivity"
+            android:label="@string/title_activity_alternativa_implicita" >
+            <intent-filter>
+                <action android:name="com.compostela.curso.holamundo.IMPLICITA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
