@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Preferencias</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_preferencias_manual">PreferenciasManualActivity</string>
+    <string name="lblPrefijo">Prefijo</string>
+    <string name="lblSufijo">Sufijo</string>
+    <string name="lblGuardar">Guardar</string>
+    <string name="title_activity_preferencias_automaticas">PreferenciasAutomaticasActivity</string>
+    <string name="key_prefijo">prefijo</string>
+    <string name="key_sufijo">sufijo</string>
+    <string name="action_settings_auto">Settings Auto</string>
+
+    <string-array name="sufijosEntriesValues">
+        <item>!!!</item>
+        <item>!!</item>
+        <item>!</item>
+        <item>\\?</item>
+    </string-array>
+    <string-array name="sufijosEntries">
+        <item>Muy efusivo</item>
+        <item>Efusivo</item>
+        <item>Poco efusivo</item>
+        <item>Interrogante</item>
+    </string-array>
+
+</resources>

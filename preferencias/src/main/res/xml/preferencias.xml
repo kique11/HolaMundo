@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/key_prefijo"
+        android:title="Prefijo"
+        android:summary="Prefijo del saludo"/>
+
+    <ListPreference
+        android:key="@string/key_sufijo"
+        android:title="Sufijo"
+        android:summary="Valores posibles para el sufijo del saludo"
+        android:dialogTitle="Escribe el sufijo"
+        android:entries="@array/sufijosEntries"
+        android:entryValues="@array/sufijosEntriesValues"/>
+</PreferenceScreen>
